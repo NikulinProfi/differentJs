@@ -27,5 +27,3 @@ const todo = document.getElementById('todo-list')
 let task
 while ((task = prompt('Введите пункт списка:')))
   todo.insertAdjacentHTML('beforeend', `<li>${task}</li>`)
-
-//test
